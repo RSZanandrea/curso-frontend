@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulário</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"> 
+		
+		<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="./css/layout.css">
+		<link rel="stylesheet" type="text/css" href="./css/modulo-07.css">
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end</h2>
+			<p>Aprenda do Zero ao Pro</p>
+			<div><h2>EBAC</h2></div>
+			<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+			<p>Aprenda de modo prático</p>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3><a href="homepage.html"> Página Inicial</a></h3>
+				<h3>Veja também</h3>
+				<ul class="navegacao">  <!-- deixar apenas 4--> 
+					<li id="primeiro-link"><a href="01-introducao.html">Introdução</a></li>
+					<li><a href="06-formularios.html">Formulários</a></li>
+					<li><a href="modulo-08_exercicio.html">Tabelas</a></li>
+									
+				</ul>
+
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li class="navegacao"><a href="https://www.linkedin.com/in/rodrigo-silva-0386b3241/" target="_blank">Linkedin</a></li>
+				</ul>
+
+				<h3>Site Preferido</h3>
+				<ul>
+					<li><a href="https://ebaconline.com.br" target="_blank">EBAC</a></li>
+					
+				</ul>
+			</nav>
+
+			<article class="rolagem">
+
+				<h1>Contato</h1>
+
+				<p>Preencha os campos abaixo e venha tomar um café conosco</p>
+					<div>
+						<form method="post">
+
+					<div>
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br>
+					</div>
+
+					<div>
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Digite seu E-mail"><br>
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label>
+						<textarea name="mensagem" id="mensagem" rows="5" placeholder="Digite a sua mensagem"></textarea><br>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual linguagem você prefere?</label><br>
+							<input type="radio" name="linguagem" value="html"> HTML
+							<input type="radio" name="linguagem"value="css"> CSS
+							<input type="radio" name="linguagem"value="java"> Java
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens você sabe?</label><br>
+							<input type="checkbox" name="linguagem" value="html"> HTML
+							<input type="checkbox" name="linguagem" value="css"> CSS
+							<input type="checkbox" name="linguagem" value="java"> Java
+						</p>
+					</div>
+
+					<div>
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="azul" selected>Azul</option>
+							<option value="Verde">Verde</option>
+							<option value="Vermelho">Vermelho</option>
+						</select>
+					</div>
+
+					<div>
+						<input type="submit" >
+					</div>
+
+				</form>
+				
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Rodrigo Zanandrea</p>
+		</footer>
+		
+	</body>
+</html>

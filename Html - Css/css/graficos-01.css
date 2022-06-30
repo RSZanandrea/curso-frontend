@@ -1,0 +1,25 @@
+
+div{
+    margin: 40px auto;
+}
+
+/*cria um círculo*/
+#grafico-01 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    overflow: hidden; /*esconde a area que passar a div*/
+    border-radius: 50%;
+}
+
+/*cria um triangulo*/
+#grafico-02 {
+    border-style: solid;
+    border-width: 60px 0 60px 120px;
+    border-color: transparent transparent transparent blue;
+    width: 200px;
+}
+
+#imagem-vetorial {
+    width: 200px;
+}

@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background-color: #efefef;
+    overflow: overlay;
+}
+
+h1,h2,p {
+    margin-bottom: 20px
+}
+
+div{
+    padding: 20px;
+    margin: 0;
+}
+
+.width-100{
+    width: 100%;
+    width: 100vw;
+    background-color: aqua;
+    padding: 20px 0;
+    height: 400px;
+    
+}
+
+nav{
+    background-color: grey;
+    width: 20%;
+    float: left;
+    display: table;
+    height: 100%;
+}
+
+article{
+    background-color: ivory;
+    width: 80%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box; /* considera o padding  a borda na largura e altura */
+}
+
+.fixed-width{
+    width: 200px;
+    background-color: rgb(3, 212, 3);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.background{
+    background-color: lightcoral;background-image: url(../images/pattern.png) ;
+    
+    background-repeat: repeat-x; /*faz repetir só no X, por ser só Y, etc... várias opções*/
+    width: 100%; /*largura*/
+    height: 50vh; /*altura 5% da altura do navegador
+    */
+}
+
+div img {
+    width: 100%;
+    height: 60vh;
+    
+}
+
