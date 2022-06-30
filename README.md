@@ -14,3 +14,9 @@ Informação de alteração
 
 ## Gitlow
 Fluxo do Git
+
+
+### Branchs
+são ramificações / versões paralelas
+
+- mains / master 
