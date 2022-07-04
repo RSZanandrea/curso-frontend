@@ -1,0 +1,134 @@
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    display: block;
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.container {
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    background: #fff;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #254159;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #254159;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #254159;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #254159;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    color: #454545;
+}
+
+ol {
+    margin-left: 30px;
+    line-height: 1.4;
+}
+
+ol li {
+    font-size: 1.4rem;
+    color: #454545;
+
+}
+
+section {
+    background-color: #fff;
+    display: block;
+    float: laft;
+    font-size: 1.5rem;
+    padding: 20px;
+    width: 100%;
+}
+
+section nav {
+    display: block;
+    float: left;
+    width: 30%;
+    
+}
+
+nav li {
+    background-color: #efefef;
+    margin: 1px 20px 1px -20px;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: #dfdfdf;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover{
+    color: #385874;
+}
+
+section article {
+    display: block;
+    float: left;
+    width: 70%;
+       
+}
+
+footer {
+    background-color: #254159;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
