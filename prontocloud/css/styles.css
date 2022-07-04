@@ -19,6 +19,8 @@ body {
     padding: 20px;
     width: 100%;
     margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 header {
     background: #fff;
@@ -61,6 +63,11 @@ p {
     color: #454545;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 ol {
     margin-left: 30px;
     line-height: 1.4;
@@ -85,6 +92,7 @@ section nav {
     display: block;
     float: left;
     width: 30%;
+    
     
 }
 
@@ -112,6 +120,7 @@ section article {
     display: block;
     float: left;
     width: 70%;
+    
        
 }
 
@@ -133,3 +142,10 @@ footer small {
     display: block;
 }
 
+#tenho-interesse{
+    border-top: 1px solid #254159;
+    height: 480px !important;
+    overflow: hidden !important;
+    width: 100%;
+
+}
