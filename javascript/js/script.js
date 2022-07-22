@@ -37,6 +37,7 @@ function contagemRegressiva(numero){
 document.addEventListener('submit', function( evento ){
 
     evento.preventDefault();
+    evento.stopPropagation();
 
     let formulario = document.getElementById('formulario-01');
 
